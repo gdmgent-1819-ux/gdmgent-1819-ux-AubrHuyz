@@ -31,7 +31,6 @@ img{
     text-align: center;
     text-decoration: none;
     font: var(--t-primary);
-    padding: 10%;
   }
   div.hoofd{
     background-color: var(--c-primary);
@@ -43,6 +42,33 @@ li a:hover {
     color: var(--c-primary);
     border-bottom: var(--c-primary),solid,5px;
   }
-  
-  
+div{
+    background-color: var(--c-primary);
+    width: 33%;
+    margin: 20px;
+}
+p{
+    font-family: var(--t-primary);
+    padding: 10px;
+    color: var(--c-wit)
+}  
+/*Style Gide*/ 
+ul{
+    padding: 10px;
+}
+li.een{
+    background-color: var(--c-primary);
+    width: 30%;
+    padding: 10%;
+}
+li.twee{
+    background-color: var(--c-primary);
+}
+h3{
+    font: var(--t-primary),1.5rem;
+
+}
+h4{
+    font: 800, var(--t-primary),caption,2rem;
+}  
   
