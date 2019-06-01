@@ -7,3 +7,42 @@
 @import url('components/buttons.css');
 @import url('components/forms.css');
 
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+
+img{
+    width: 100%;
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:var(--c-licht-grijs);
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: var(--c-donker-grijs);
+    text-align: center;
+    text-decoration: none;
+    font: var(--t-primary);
+    padding: 10%;
+  }
+  div.hoofd{
+    background-color: var(--c-primary);
+    width: 100%;
+    height: 5rem;
+  }
+  
+li a:hover {
+    color: var(--c-primary);
+    border-bottom: var(--c-primary),solid,5px;
+  }
+  
+  
+  
