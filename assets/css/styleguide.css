@@ -22,9 +22,10 @@ ul{
 li.een{
     background-color: var(--c-primary);
     width: 30%;
+    padding: 10%;
 }
 li.twee{
-    background-color: var(--c-licht-grijs);
+    background-color: var(--c-primary);
 }
 h3{
     font: var(--t-primary),1.5rem;
