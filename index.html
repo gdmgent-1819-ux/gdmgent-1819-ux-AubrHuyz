@@ -1,42 +1,108 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="nl">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Eindopdracht UX</title>
+    <title>Sleutelboom</title>
     <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/grid.css">
+    <link rel="stylesheet" href="assets/css/variables.css">
 </head>
 <body>
-    <header>
-        <div id="hoofd">
+    <div class="header">
+        <a href="" id='headerbutton'>Smartschool</a>
+        <a href="" id='headerbutton'>login</a>
+    </div>
+    <div class="grid">
+        <div class="navigatie">
+            <a href=""id='logo'><img src="images/sleutelboom.png" alt="logo"></a>
+            <!-- <a href=""id="buttongnav">class="fas fa-search"></a> -->
+            <a href=""id="buttongnav">Klassen</a>
+            <a herf=""id="buttongnav">Kalender</a>
+            <a href=""id="buttongnav">Informatie</a>
+            <a herf=""id="buttongnav">schoolvisie</a>
+            <a href=""id="buttongnav">Nieuws</a>
+            <a href=""id="buttongnav">Externen</a>
+            <a href=""id="buttongnav">Inschrijvingen</a>
+            <a href=""id="buttongnav">contact</a>
         </div>
-        <nav>
-            <ul>
-                <li><a>Kamers</a></li>
-                <li><a>Faciliteiten</a></li>
-                <li><a>Meetings & events</a></li>
-                <li><a>De Rotterdam</a></li>
-                <li><a>Aanbiedingen</a></li>
-                <li><a>Eten & Drinken</a></li>
-                <li><a>Gastenboek</a></li>
-                <li><a>Locatie & Route</a></li>
-            </ul>
-            </nav>
-    </header>
-<img src="Afbeeldingen/victor.jpg" alt="DeRotterdam" id="derot">
-<div>
-    <p>Het nhow Rotterdam Hotel staat aan het water op de Wilhelminapier. Het is gevestigd in een strak nieuw gebouw, De Rotterdam, met winkels, cafés en restaurants, allemaal handig gelegen in een nieuw gebied dat bekendstaat als ‘Manhattan aan de Maas’.
-
-            - fantastische ligging aan het water <br/>
-            - dicht bij de metro, waarmee u snel in het stadscentrum bent<br/>
-            
-            De ruime kamers benutten het prachtige uitzicht optimaal met kamerhoge ramen die de skyline van Rotterdam zo in uw slaapkamer brengen. De inrichting is eigentijds met strakke lijnen en designmeubilair.<br/>
-            <br/>
-            - badkamers gemaakt van gerecycled glas<br/>
-            - Gratis WiFi<br/>
-            - De Horizon Suite heeft turndownservice en 2 smart tv’s in een aparte woonkamer.<br/>
+    
+    
+        <div class="welkom">
+            <h2 id="welkom">Welkom!</h2>
+            <p id="regzwart">
+                De naam “Sleutelbos” staat voor het aanreiken van sleutels tot groei, geborgenheid, geluk, respect, geloof, samenhorigheid, vriendschap,  etc.. het hele jaar door
             </p>
-</div>        
+            <div class="nestedwelkom"><a href="" id="blauwlink"> Lees meer</a></div>
+            
+        
+            <div class="fotos">
+                <!-- <img src="images/neonbrand-zFSo6bnZJTw-unsplash.jpg" alt="school">
+                <img src="images/nicole-honeywill-YLUvemTiRtk-unsplash.jpg" alt="school">
+                <img src="images/stem-t4l-qF9GpDlsDfI-unsplash.jpg" alt="school"> -->
+                <img src="images/welkom.png" id="fwelkom" alt="school :(">
+            </div>
+        </div>
+        <div class="agenda">
+                
+            <h3 id="blauwreg">Op de agenda</h3>
+            <div class="items">
+                <h4 class="dag">2/9</h4><h5 class="item">Eerste schooldag</h5><a href="" class="meerinfo">meer info</a> 
+            </div>
+            <div class="items">
+                    <h4 class="dag">12/10</h4><h5 class="item">toneelstuk 2de leerjaar</h5><a href="" class="meerinfo">meer info</a> 
+            </div>   
+            <div class="items">
+                    <h4 class="dag">24/10</h4><h5 class="item">koekjes verkoop</h5><a href="" class="meerinfo">meer info</a> 
+            </div>
+            <div class="items">
+                    <h4 class="dag">5/11</h4><h5 class="item">Pedagogische studiedag</h5><a href="" class="meerinfo">meer info</a> 
+            </div>
+            <div class="items"><a href="" class="meeragendapunten">Meer agenda punten</a>
+            </div>
+        </div>
+        <div class="ophetmenu">
+                <h3 id="blauwreg">Week menu</h3>
+                <div class="items">
+                        <h4 class="dag">Ma</h4><h5 class="item">kip</h5><p id="menu">Natuursaus & preisoep</p>
+                </div>
+                <div class="items">
+                        <h4 class="dag">din</h4><h5 class="item">stoofvlees</h5><p id="menu">natuur aardapplelen & kervelsoep</p>
+                </div>
+                <div class="items">
+                        <h4 class="dag">do</h4><h5 class="item">braadworst</h5><p id="menu">natuur aardappelen & aspergesoep</p>
+                </div>
+                <div class="items">
+                        <h4 class="dag">vrij</h4><h5 class="item">kip</h5><p id="menu">gestoofde wortelen & tomatensoep</p>
+                </div>
+                <div class="items"><a href="" class="voledigmenu">Bekijk volledige menu</a></div>
+        </div>
+        <div class="kortnieuws">
+            <h3 id="groenreg">Kort nieuws</h3>
+            <div class="vlak">
+                <h6 id="wit">Eerste schooldag</h6>
+                <img src="images/lovetolearn.jpg" alt="school" id="love" >
+                <p id="wit">Leerlingen krijgen verschillende opdrachten waarbij ze moeten samenwerken. Per geslaagde opdracht kunnen ze iets van schoolmateriaal verdienen…</p>
+                <a href=""id="meerinfoklein">Meer info</a>
+            </div>
+            <div class="vlak">
+                    <h6 id="wit">nieuwe sporthal</h6>
+                    <a href=""id="meerinfoklein">Meer info</a>
+            </div>
+            <div class="vlak">
+                    <h6 id="wit">zwemkalender</h6>
+                    <a href=""id="meerinfoklein">Meer info</a>
+            </div>
+            
+        </div>
+        
+    </div>
+
+    <div class="voet">
+         <p id="wit">KBO College ‘Het sleutelbos’ Achter de Wacht 23, 9700 Oudenaarde - 055/31.23.51 - 0492/46.44.09 © 2019 KBO College ‘Het sleutelbos’ Oudenaarde</p>
+    </div>
+
+    
 </body>
 </html>

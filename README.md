@@ -3,5 +3,7 @@
 - Voornaam: Aubry
 - Familienaam: Huyzentruyt
 - Studentnummer: 102092
-- Klasgroep: 1GMB
-- UX prototype link: https://xd.adobe.com/view/f4701225-7607-4b7a-61f1-04df5225fe62-8241/?fullscreen  https://xd.adobe.com/view/35b649b9-744b-4f8c-453f-bacc771587db-4387/?fullscreen
+- Klasgroep: 
+- UX prototype link:
+- mobiel: https://xd.adobe.com/view/fe4c7063-3fa0-4e48-6329-72a9c4875914-887d/
+- desktop: https://xd.adobe.com/view/37943b58-d6af-4add-5f88-287ee41beb17-41a5/

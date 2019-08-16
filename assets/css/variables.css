@@ -1,33 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP:300,400,500,700&display=swap');
+ :root{
+ /* colors */
+ --c-groen: hsla(76, 73%, 44%, 1); 
+ --c-blauw:hsla(201, 91%, 45%, 1);
+ --c-zwart-licht: hsla(0, 0%, 15%, 1);
+ --c-zwart: hsla(0, 0%, 0%, 1);
+ --c-wit: hsla(0, 0%, 100%, 1);
+ --c-grijs: hsla(0, 0%, 43%, 1);
+ 
+ /* fonds */
+--f-medium: 'Noto Sans JP 500';
 
-:root {
-  /**
-   * Colour palette
-   */
-  --c-primary: hsla(226, 59%, 62%,1);
-  --c-secondry: hsla(0,30%,30%,0.3);
-  --c-licht-grijs: rgba(165, 165, 165,0.5);
-  --c-donker-grijs:rgb(77,77,77);
-  --c-wit: rgb(255,255,255);
-
-
-
-
-
-  /**
-   * Layout
-   */
-  --l-gutter: 1rem;
-
-  /**
-   * Typography
-   */
-  --t-primary: 'Open Sans', sans-serif;
-  --t-secondary: 'Open Sans', sans-serif;
-
-  --t-headline: var(--t-primary);
-  --t-subtitle: var(--t-primary);
-  --t-body: var(--t-secondary);
-  --t-code: var(--t-tertiary);
 }
-
-
